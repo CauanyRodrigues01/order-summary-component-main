@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html {
+    color: hsl(0, 6%, 24%);
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem; 
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url(../img/pattern-background-desktop.svg) no-repeat top var(--pale-blue);
+}
+
+.card {
+    width: 50%;
+    min-width: 245px; 
+    max-width: 300px;
+
+    border-radius: 1.5rem;
+    text-align: center;
+
+    background-color: white;
+}
+
+.card .top {
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+main .title {
+    color: var(--dark-blue);
+}
+
+main .text {
+    color: var(--desaturated-blue);
+}
+
+section {
+    padding: 1rem;
+}
+
+.option-plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    border-radius: 1rem;
+    background-color: hsla(225, 100%, 94%, 0.3);
+}
+
+.option-plan .plan {
+    margin: 0px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    display: none;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
