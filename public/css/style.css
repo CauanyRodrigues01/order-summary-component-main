@@ -24,13 +24,15 @@ body {
 }
 
 .container {
-    height: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
 
     background: url(../img/pattern-background-desktop.svg) no-repeat top var(--pale-blue);
+    background-size: contain;
 }
 
 .card {
