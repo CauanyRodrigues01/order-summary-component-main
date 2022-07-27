@@ -158,16 +158,6 @@ button {
     }
 }
 
-/* Laptop L */
-@media screen and (max-width: 1440px) {
-    
-}
-
-/* Laptop */
-@media screen and (max-width: 1024px) {
-    
-}
-
 /* Tablet */
 @media screen and (max-width: 768px) {
     .card {
